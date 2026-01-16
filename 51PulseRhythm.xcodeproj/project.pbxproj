@@ -3,29 +3,83 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		740BD4382F1ABEF2009EE249 /* WidgetInstructions.md in Resources */ = {isa = PBXBuildFile; fileRef = 740BD42B2F1ABEF2009EE249 /* WidgetInstructions.md */; };
+		740BD4392F1ABEF2009EE249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740BD42E2F1ABEF2009EE249 /* Assets.xcassets */; };
+		740BD43B2F1ABEF2009EE249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740BD4322F1ABEF2009EE249 /* LaunchScreen.storyboard */; };
+		740BD43C2F1ABEF2009EE249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740BD4342F1ABEF2009EE249 /* Main.storyboard */; };
+		740BD43D2F1ABEF2009EE249 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD40D2F1ABEF2009EE249 /* Achievement.swift */; };
+		740BD43E2F1ABEF2009EE249 /* BreathingPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD40E2F1ABEF2009EE249 /* BreathingPhase.swift */; };
+		740BD43F2F1ABEF2009EE249 /* BreathingTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD40F2F1ABEF2009EE249 /* BreathingTechnique.swift */; };
+		740BD4402F1ABEF2009EE249 /* SessionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4102F1ABEF2009EE249 /* SessionResult.swift */; };
+		740BD4412F1ABEF2009EE249 /* AchievementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4122F1ABEF2009EE249 /* AchievementService.swift */; };
+		740BD4422F1ABEF2009EE249 /* CustomTechniqueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4132F1ABEF2009EE249 /* CustomTechniqueService.swift */; };
+		740BD4432F1ABEF2009EE249 /* OnboardingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4142F1ABEF2009EE249 /* OnboardingService.swift */; };
+		740BD4442F1ABEF2009EE249 /* SessionHistoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4152F1ABEF2009EE249 /* SessionHistoryService.swift */; };
+		740BD4452F1ABEF2009EE249 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4172F1ABEF2009EE249 /* ColorExtension.swift */; };
+		740BD4462F1ABEF2009EE249 /* SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4192F1ABEF2009EE249 /* SessionViewModel.swift */; };
+		740BD4472F1ABEF2009EE249 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD41A2F1ABEF2009EE249 /* SettingsViewModel.swift */; };
+		740BD4482F1ABEF2009EE249 /* TechniqueSelectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD41B2F1ABEF2009EE249 /* TechniqueSelectViewModel.swift */; };
+		740BD4492F1ABEF2009EE249 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD41D2F1ABEF2009EE249 /* CheckLink.swift */; };
+		740BD44A2F1ABEF2009EE249 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD41E2F1ABEF2009EE249 /* InternetViewController.swift */; };
+		740BD44B2F1ABEF2009EE249 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD41F2F1ABEF2009EE249 /* LoaderViewController.swift */; };
+		740BD44C2F1ABEF2009EE249 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4212F1ABEF2009EE249 /* AchievementsView.swift */; };
+		740BD44D2F1ABEF2009EE249 /* CreateTechniqueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4222F1ABEF2009EE249 /* CreateTechniqueView.swift */; };
+		740BD44E2F1ABEF2009EE249 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4232F1ABEF2009EE249 /* HistoryView.swift */; };
+		740BD44F2F1ABEF2009EE249 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4242F1ABEF2009EE249 /* OnboardingView.swift */; };
+		740BD4502F1ABEF2009EE249 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4252F1ABEF2009EE249 /* ResultsView.swift */; };
+		740BD4512F1ABEF2009EE249 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4262F1ABEF2009EE249 /* SessionView.swift */; };
+		740BD4522F1ABEF2009EE249 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4272F1ABEF2009EE249 /* SettingsView.swift */; };
+		740BD4532F1ABEF2009EE249 /* TechniqueSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4282F1ABEF2009EE249 /* TechniqueSelectView.swift */; };
+		740BD4542F1ABEF2009EE249 /* PulseRhythmWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD42A2F1ABEF2009EE249 /* PulseRhythmWidget.swift */; };
+		740BD4552F1ABEF2009EE249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD42D2F1ABEF2009EE249 /* AppDelegate.swift */; };
+		740BD4562F1ABEF2009EE249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD42F2F1ABEF2009EE249 /* ContentView.swift */; };
+		740BD4572F1ABEF2009EE249 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4352F1ABEF2009EE249 /* SceneDelegate.swift */; };
+		740BD4582F1ABEF2009EE249 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740BD4362F1ABEF2009EE249 /* ViewController.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		740353E22F15004F005F5EEF /* 51PulseRhythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 51PulseRhythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		740BD40D2F1ABEF2009EE249 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		740BD40E2F1ABEF2009EE249 /* BreathingPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingPhase.swift; sourceTree = "<group>"; };
+		740BD40F2F1ABEF2009EE249 /* BreathingTechnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingTechnique.swift; sourceTree = "<group>"; };
+		740BD4102F1ABEF2009EE249 /* SessionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionResult.swift; sourceTree = "<group>"; };
+		740BD4122F1ABEF2009EE249 /* AchievementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementService.swift; sourceTree = "<group>"; };
+		740BD4132F1ABEF2009EE249 /* CustomTechniqueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTechniqueService.swift; sourceTree = "<group>"; };
+		740BD4142F1ABEF2009EE249 /* OnboardingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingService.swift; sourceTree = "<group>"; };
+		740BD4152F1ABEF2009EE249 /* SessionHistoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionHistoryService.swift; sourceTree = "<group>"; };
+		740BD4172F1ABEF2009EE249 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		740BD4192F1ABEF2009EE249 /* SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewModel.swift; sourceTree = "<group>"; };
+		740BD41A2F1ABEF2009EE249 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		740BD41B2F1ABEF2009EE249 /* TechniqueSelectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechniqueSelectViewModel.swift; sourceTree = "<group>"; };
+		740BD41D2F1ABEF2009EE249 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		740BD41E2F1ABEF2009EE249 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		740BD41F2F1ABEF2009EE249 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		740BD4212F1ABEF2009EE249 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		740BD4222F1ABEF2009EE249 /* CreateTechniqueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTechniqueView.swift; sourceTree = "<group>"; };
+		740BD4232F1ABEF2009EE249 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		740BD4242F1ABEF2009EE249 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		740BD4252F1ABEF2009EE249 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		740BD4262F1ABEF2009EE249 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		740BD4272F1ABEF2009EE249 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		740BD4282F1ABEF2009EE249 /* TechniqueSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechniqueSelectView.swift; sourceTree = "<group>"; };
+		740BD42A2F1ABEF2009EE249 /* PulseRhythmWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseRhythmWidget.swift; sourceTree = "<group>"; };
+		740BD42B2F1ABEF2009EE249 /* WidgetInstructions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WidgetInstructions.md; sourceTree = "<group>"; };
+		740BD42D2F1ABEF2009EE249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		740BD42E2F1ABEF2009EE249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		740BD42F2F1ABEF2009EE249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		740BD4302F1ABEF2009EE249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740BD4312F1ABEF2009EE249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		740BD4332F1ABEF2009EE249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		740BD4352F1ABEF2009EE249 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		740BD4362F1ABEF2009EE249 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7AF1DF80A7AA3AF7A3306874 /* Pods-51PulseRhythm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-51PulseRhythm.release.xcconfig"; path = "Target Support Files/Pods-51PulseRhythm/Pods-51PulseRhythm.release.xcconfig"; sourceTree = "<group>"; };
 		B674FABED2BD05354A75CE20 /* Pods-51PulseRhythm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-51PulseRhythm.debug.xcconfig"; path = "Target Support Files/Pods-51PulseRhythm/Pods-51PulseRhythm.debug.xcconfig"; sourceTree = "<group>"; };
 		F504C67CE35D0121591F4716 /* Pods_51PulseRhythm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_51PulseRhythm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7403541C2F150096005F5EEF /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 740353E12F15004F005F5EEF /* 51PulseRhythm */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		740354142F150096005F5EEF /* 51PulseRhythm */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7403541C2F150096005F5EEF /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = 51PulseRhythm; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		740353DF2F15004F005F5EEF /* Frameworks */ = {
@@ -50,7 +104,7 @@
 		740353D92F15004F005F5EEF = {
 			isa = PBXGroup;
 			children = (
-				740354142F150096005F5EEF /* 51PulseRhythm */,
+				740BD4372F1ABEF2009EE249 /* 51PulseRhythm */,
 				740353E32F15004F005F5EEF /* Products */,
 				18781BF0099C16D23BBB04B0 /* Pods */,
 				DC9F5D6A59EFF5EB2952BCDE /* Frameworks */,
@@ -63,6 +117,102 @@
 				740353E22F15004F005F5EEF /* 51PulseRhythm.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		740BD4112F1ABEF2009EE249 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				740BD40D2F1ABEF2009EE249 /* Achievement.swift */,
+				740BD40E2F1ABEF2009EE249 /* BreathingPhase.swift */,
+				740BD40F2F1ABEF2009EE249 /* BreathingTechnique.swift */,
+				740BD4102F1ABEF2009EE249 /* SessionResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		740BD4162F1ABEF2009EE249 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				740BD4122F1ABEF2009EE249 /* AchievementService.swift */,
+				740BD4132F1ABEF2009EE249 /* CustomTechniqueService.swift */,
+				740BD4142F1ABEF2009EE249 /* OnboardingService.swift */,
+				740BD4152F1ABEF2009EE249 /* SessionHistoryService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		740BD4182F1ABEF2009EE249 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				740BD4172F1ABEF2009EE249 /* ColorExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		740BD41C2F1ABEF2009EE249 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				740BD4192F1ABEF2009EE249 /* SessionViewModel.swift */,
+				740BD41A2F1ABEF2009EE249 /* SettingsViewModel.swift */,
+				740BD41B2F1ABEF2009EE249 /* TechniqueSelectViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		740BD4202F1ABEF2009EE249 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				740BD41D2F1ABEF2009EE249 /* CheckLink.swift */,
+				740BD41E2F1ABEF2009EE249 /* InternetViewController.swift */,
+				740BD41F2F1ABEF2009EE249 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		740BD4292F1ABEF2009EE249 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				740BD4202F1ABEF2009EE249 /* LoadingView */,
+				740BD4212F1ABEF2009EE249 /* AchievementsView.swift */,
+				740BD4222F1ABEF2009EE249 /* CreateTechniqueView.swift */,
+				740BD4232F1ABEF2009EE249 /* HistoryView.swift */,
+				740BD4242F1ABEF2009EE249 /* OnboardingView.swift */,
+				740BD4252F1ABEF2009EE249 /* ResultsView.swift */,
+				740BD4262F1ABEF2009EE249 /* SessionView.swift */,
+				740BD4272F1ABEF2009EE249 /* SettingsView.swift */,
+				740BD4282F1ABEF2009EE249 /* TechniqueSelectView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		740BD42C2F1ABEF2009EE249 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				740BD42A2F1ABEF2009EE249 /* PulseRhythmWidget.swift */,
+				740BD42B2F1ABEF2009EE249 /* WidgetInstructions.md */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		740BD4372F1ABEF2009EE249 /* 51PulseRhythm */ = {
+			isa = PBXGroup;
+			children = (
+				740BD4112F1ABEF2009EE249 /* Models */,
+				740BD4162F1ABEF2009EE249 /* Services */,
+				740BD4182F1ABEF2009EE249 /* Utils */,
+				740BD41C2F1ABEF2009EE249 /* ViewModels */,
+				740BD4292F1ABEF2009EE249 /* Views */,
+				740BD42C2F1ABEF2009EE249 /* Widgets */,
+				740BD42D2F1ABEF2009EE249 /* AppDelegate.swift */,
+				740BD42E2F1ABEF2009EE249 /* Assets.xcassets */,
+				740BD42F2F1ABEF2009EE249 /* ContentView.swift */,
+				740BD4302F1ABEF2009EE249 /* Info.plist */,
+				740BD4322F1ABEF2009EE249 /* LaunchScreen.storyboard */,
+				740BD4342F1ABEF2009EE249 /* Main.storyboard */,
+				740BD4352F1ABEF2009EE249 /* SceneDelegate.swift */,
+				740BD4362F1ABEF2009EE249 /* ViewController.swift */,
+			);
+			path = 51PulseRhythm;
 			sourceTree = "<group>";
 		};
 		DC9F5D6A59EFF5EB2952BCDE /* Frameworks */ = {
@@ -88,9 +238,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				740354142F150096005F5EEF /* 51PulseRhythm */,
 			);
 			name = 51PulseRhythm;
 			productName = 51PulseRhythm;
@@ -135,6 +282,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740BD4382F1ABEF2009EE249 /* WidgetInstructions.md in Resources */,
+				740BD4392F1ABEF2009EE249 /* Assets.xcassets in Resources */,
+				740BD43B2F1ABEF2009EE249 /* LaunchScreen.storyboard in Resources */,
+				740BD43C2F1ABEF2009EE249 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +321,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740BD43D2F1ABEF2009EE249 /* Achievement.swift in Sources */,
+				740BD43E2F1ABEF2009EE249 /* BreathingPhase.swift in Sources */,
+				740BD43F2F1ABEF2009EE249 /* BreathingTechnique.swift in Sources */,
+				740BD4402F1ABEF2009EE249 /* SessionResult.swift in Sources */,
+				740BD4412F1ABEF2009EE249 /* AchievementService.swift in Sources */,
+				740BD4422F1ABEF2009EE249 /* CustomTechniqueService.swift in Sources */,
+				740BD4432F1ABEF2009EE249 /* OnboardingService.swift in Sources */,
+				740BD4442F1ABEF2009EE249 /* SessionHistoryService.swift in Sources */,
+				740BD4452F1ABEF2009EE249 /* ColorExtension.swift in Sources */,
+				740BD4462F1ABEF2009EE249 /* SessionViewModel.swift in Sources */,
+				740BD4472F1ABEF2009EE249 /* SettingsViewModel.swift in Sources */,
+				740BD4482F1ABEF2009EE249 /* TechniqueSelectViewModel.swift in Sources */,
+				740BD4492F1ABEF2009EE249 /* CheckLink.swift in Sources */,
+				740BD44A2F1ABEF2009EE249 /* InternetViewController.swift in Sources */,
+				740BD44B2F1ABEF2009EE249 /* LoaderViewController.swift in Sources */,
+				740BD44C2F1ABEF2009EE249 /* AchievementsView.swift in Sources */,
+				740BD44D2F1ABEF2009EE249 /* CreateTechniqueView.swift in Sources */,
+				740BD44E2F1ABEF2009EE249 /* HistoryView.swift in Sources */,
+				740BD44F2F1ABEF2009EE249 /* OnboardingView.swift in Sources */,
+				740BD4502F1ABEF2009EE249 /* ResultsView.swift in Sources */,
+				740BD4512F1ABEF2009EE249 /* SessionView.swift in Sources */,
+				740BD4522F1ABEF2009EE249 /* SettingsView.swift in Sources */,
+				740BD4532F1ABEF2009EE249 /* TechniqueSelectView.swift in Sources */,
+				740BD4542F1ABEF2009EE249 /* PulseRhythmWidget.swift in Sources */,
+				740BD4552F1ABEF2009EE249 /* AppDelegate.swift in Sources */,
+				740BD4562F1ABEF2009EE249 /* ContentView.swift in Sources */,
+				740BD4572F1ABEF2009EE249 /* SceneDelegate.swift in Sources */,
+				740BD4582F1ABEF2009EE249 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		740BD4322F1ABEF2009EE249 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740BD4312F1ABEF2009EE249 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		740BD4342F1ABEF2009EE249 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740BD4332F1ABEF2009EE249 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		740353F62F150050005F5EEF /* Debug */ = {
@@ -186,6 +384,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 51PulseRhythm/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "StarkPulse Rhytm";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -197,7 +396,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-1PulseRhythm";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dan.r3pcl1cr8sh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -223,6 +422,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 51PulseRhythm/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "StarkPulse Rhytm";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -234,7 +434,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "home.-1PulseRhythm";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dan.r3pcl1cr8sh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
